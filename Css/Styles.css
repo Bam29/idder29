@@ -1,0 +1,157 @@
+html{
+    overflow-x: hidden;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+
+img{
+    width: 100%;
+}
+a{
+    color: #222831;
+    text-decoration: none;
+}
+a:hover{
+    color: #FA163F;
+    border-bottom-color: #FA163F;
+}
+a:active{
+    color: #277BC0;
+    border-bottom-color: #277BC0;
+
+}
+.active{
+    color: #277BC0;
+    border-bottom: #277BC0 2px solid;
+    padding-bottom: 5px;
+}
+.Head{
+    display: flex;
+    justify-content: space-between
+    ;
+    align-items: center;
+    background-color: #eeeeeeb6;
+    width: 100vw;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+.title {
+    margin-top: 0;
+    width: 150px;
+    min-width: 150px;
+    
+    
+}
+
+.pages ul{
+    margin-top: 0;
+    margin: auto;
+    margin-right: 10px;
+    width: 400px;
+    font-size: 12px;
+    min-width: 420px;
+
+}
+
+.pages ul li{
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+}
+.welcom h1{
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    min-width: 190px;
+}
+.welcom p{
+    margin-top: 0;
+}
+.colora{
+    color: #61481C;
+
+}
+.colorb{
+    color: #FA163F;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    
+    border-radius: 50%;
+    padding-bottom: 30px;
+}
+
+.abouta{
+    
+    padding: 7px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #0e3150;
+    box-shadow: 0px 3px 10px #0e3150;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.abouta:hover{
+    background-color: #0e315088;
+    color: #FA163F;
+    
+}
+
+
+.material-symbols-outlined {
+    background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-left: 5px;
+  background-color: white;
+}
+
+
+.Social_media{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 12px;
+
+}
+.Social_media div{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.Social_media div:hover{
+    background-color: #E4F9FF;
+}
+.Social_media div:active{
+    background-color: #FA163F;
+}

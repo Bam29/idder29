@@ -1,0 +1,19 @@
+body{
+    font-family: arial;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 700px;
+    padding-top: 82px;
+    padding-left:98px ;
+    background-color: #f4f4f4;
+}
+img{
+    width: 100%;
+    
+} 
+p{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
