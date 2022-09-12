@@ -5,7 +5,7 @@ html{
 body{
     font-family: 'Montserrat', sans-serif;
     margin: auto;
-    
+    background-image: url("");
     background-position: center; /* Center the image */
   background-repeat: no-repeat;
     background-repeat: no-repeat;
@@ -49,8 +49,8 @@ a:active{
     margin-top: 0;
     width: 150px;
     min-width: 150px;
-    
-    
+
+
 }
 
 .pages ul{
@@ -96,18 +96,18 @@ a:active{
     width: 200px;
     height: 200px;
     overflow: hidden;
-    
+
     border-radius: 50%;
     padding-bottom: 30px;
 }
 
 .abouta{
-    
+
     padding: 7px 20px;
     border: none;
     border-radius: 50px;
     background-color: #0e3150;
-    box-shadow: 0px 3px 10px #0e3150;    
+    box-shadow: 0px 3px 10px #0e3150;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -115,12 +115,12 @@ a:active{
     color: white;
     font-size: 13px;
     font-weight: bold;
-    
+
 }
 .abouta:hover{
     background-color: #0e315088;
     color: #FA163F;
-    
+
 }
 
 
@@ -155,3 +155,99 @@ a:active{
 .Social_media div:active{
     background-color: #FA163F;
 }
+
+.CV_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    margin: 10px 15px 10px 140px;
+  
+  
+  }
+  aside{
+    background-color: #222831;
+    width: 50px;
+    height:730px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 0;
+  
+  
+  }
+  
+  .first-icon, .second-icon, .terth-icon{
+    width: 40px;
+    height: 40px;
+    margin:7px auto 7px auto;
+  
+  }
+  .second-icon{
+    height:245px;
+    padding: 6px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+  
+  
+  }
+  .second-icon  img, .first-icon  img, .terth-icon img{
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+  
+  }
+  .toph{
+    position: relative;
+  
+    width: 400px;
+    height: 800px;
+  
+    box-shadow: 0 0 50px black;
+    z-index: 100;
+    overflow: hidden;
+  
+  }
+  .my_image{
+    float: left;
+    height: 100%;
+    width: auto;
+    z-index: -1;
+    background-size: cover;
+  }
+  .image_info{
+    position: absolute;
+    inset:0;
+    bottom: -10px;
+    margin: auto;
+    text-align: center;
+    top:650px;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+    font-weight: bold;
+  }
+  
+  .CV_info{
+    background-color: #222831;
+    height: 700px;
+    padding-left: 12px;
+    width: 600px;
+    color: #EEEEEE;
+    padding: 15px 20px
+  
+  }
+  .CV_info h1, .CV_info h3{
+    color: white;
+  }
+  table thead tr th{
+    text-align: left;
+    color: white;
+  }
+  
+  table{
+    margin-bottom: 0;
+  }
+  
